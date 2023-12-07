@@ -1,0 +1,294 @@
+{
+  "accessors": [
+    {
+      "bufferView": 2,
+      "componentType": 5126,
+      "count": 65532,
+      "max": [
+        2.5576038360595703,
+        1.3146095275878906,
+        1.416450023651123
+      ],
+      "min": [
+        0.0,
+        0.015575408935546875,
+        0.0
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 786384,
+      "componentType": 5126,
+      "count": 65532,
+      "max": [
+        0.9999328851699829,
+        0.999970018863678,
+        0.9999062418937683
+      ],
+      "min": [
+        -0.9999187588691711,
+        -0.9999892115592957,
+        -0.9999911189079285
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5126,
+      "count": 65532,
+      "max": [
+        0.9933300018310547,
+        0.9971020221710205
+      ],
+      "min": [
+        0.0038060001097619534,
+        0.0028089999686926603
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "componentType": 5125,
+      "count": 342654,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 1572768,
+      "componentType": 5126,
+      "count": 20678,
+      "max": [
+        2.5570669174194336,
+        1.255117416381836,
+        1.4154040813446045
+      ],
+      "min": [
+        0.07242798805236816,
+        0.0,
+        0.0009959936141967773
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 1820904,
+      "componentType": 5126,
+      "count": 20678,
+      "max": [
+        0.9998829960823059,
+        0.9998862147331238,
+        0.9999865889549255
+      ],
+      "min": [
+        -0.9987197518348694,
+        -0.9999854564666748,
+        -0.9997683763504028
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 524256,
+      "componentType": 5126,
+      "count": 20678,
+      "max": [
+        0.9853429794311523,
+        0.993170976638794
+      ],
+      "min": [
+        0.0039029999170452356,
+        0.0039059999398887157
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 1370616,
+      "componentType": 5125,
+      "count": 86286,
+      "type": "SCALAR"
+    }
+  ],
+  "asset": {
+    "extras": {
+      "author": "Duplicate 3D (https://sketchfab.com/Duplicate3D)",
+      "license": "CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)",
+      "source": "https://sketchfab.com/3d-models/grapes-8d5e8221caeb46688ef445686076c677",
+      "title": "Grapes"
+    },
+    "generator": "Sketchfab-12.63.0",
+    "version": "2.0"
+  },
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 1715760,
+      "name": "floatBufferViews",
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteLength": 689680,
+      "byteOffset": 1715760,
+      "byteStride": 8,
+      "name": "floatBufferViews",
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 2069040,
+      "byteOffset": 2405440,
+      "byteStride": 12,
+      "name": "floatBufferViews",
+      "target": 34962
+    }
+  ],
+  "buffers": [
+    {
+      "byteLength": 4474480,
+      "uri": "scene.bin"
+    }
+  ],
+  "images": [
+    {
+      "uri": "textures/Grapes_V01_baseColor.jpeg"
+    },
+    {
+      "uri": "textures/Grapes_V01_metallicRoughness.png"
+    }
+  ],
+  "materials": [
+    {
+      "doubleSided": true,
+      "name": "Grapes_V01",
+      "pbrMetallicRoughness": {
+        "baseColorTexture": {
+          "index": 0
+        },
+        "metallicFactor": 0.5443978658536586,
+        "metallicRoughnessTexture": {
+          "index": 1
+        }
+      }
+    }
+  ],
+  "meshes": [
+    {
+      "name": "Object_0",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 1,
+            "POSITION": 0,
+            "TEXCOORD_0": 2
+          },
+          "indices": 3,
+          "material": 0,
+          "mode": 4
+        }
+      ]
+    },
+    {
+      "name": "Object_1",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 5,
+            "POSITION": 4,
+            "TEXCOORD_0": 6
+          },
+          "indices": 7,
+          "material": 0,
+          "mode": 4
+        }
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "children": [
+        1
+      ],
+      "matrix": [
+        0.05671088024973869,
+        0.990684986114502,
+        0.12380295991897605,
+        0.0,
+        0.4114561676979065,
+        -0.13617366552352925,
+        0.9011995196342468,
+        0.0,
+        0.9096634984016418,
+        -0.00016832514666011646,
+        -0.4153459668159485,
+        0.0,
+        3.3666892051696777,
+        -0.9711102247238196,
+        16.50179672241211,
+        1.0
+      ],
+      "name": "Sketchfab_model"
+    },
+    {
+      "children": [
+        2,
+        3
+      ],
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        -1.293720006942749,
+        -9.294451713562012,
+        -0.5179949998855591,
+        1.0
+      ],
+      "name": "Grapes_V01.obj.cleaner.gles"
+    },
+    {
+      "mesh": 0,
+      "name": "Object_2"
+    },
+    {
+      "mesh": 1,
+      "name": "Object_3"
+    }
+  ],
+  "samplers": [
+    {
+      "magFilter": 9729,
+      "minFilter": 9987,
+      "wrapS": 10497,
+      "wrapT": 10497
+    }
+  ],
+  "scene": 0,
+  "scenes": [
+    {
+      "name": "Sketchfab_Scene",
+      "nodes": [
+        0
+      ]
+    }
+  ],
+  "textures": [
+    {
+      "sampler": 0,
+      "source": 0
+    },
+    {
+      "sampler": 0,
+      "source": 1
+    }
+  ]
+}
